@@ -1,0 +1,7 @@
+@EndUserText.label: 'Service Definition for Managing Flights'
+define service FLIGHT_R {
+  expose I_Connection_R as Connection;
+  expose I_Flight_R as Flight;
+  expose I_Carrier as Airline;
+  expose I_Airport as Airport;
+}
