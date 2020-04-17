@@ -1,0 +1,16 @@
+@EndUserText.label: 'Service Definition for Managing Travels'
+define service TRAVEL_U {
+  expose C_Travel_U as Travel;
+  expose C_Booking_U as Booking;
+  expose C_BookingSupplement_U as BookingSupplement;
+  expose I_Supplement as Supplement;
+  expose I_SupplementText as SupplementText;
+  expose I_Customer as Passenger;
+  expose I_Agency as TravelAgency;
+  expose I_Currency as Currency;
+  expose I_Country as Country;
+  expose I_Carrier as Airline;
+  expose I_Connection as FlightConnection;
+  expose I_Flight as Flight;
+  expose I_Airport as Airport;
+}
